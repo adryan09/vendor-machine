@@ -9,12 +9,12 @@ const { credit, } = addCreditActions;
 const INITIAL_STATE = {
     products: [
         [{ name: 'coke', nrItems: 10, price: 10, },
-            { name: 'pepsi', nrItems: 10, price: 15, },
-            {name: 'fanta', nrItems: 10, price: 10, }, 
+            { name: 'pepsi', nrItems: 5, price: 5, },
+            {name: 'fanta', nrItems: 8, price: 10, }, 
             { name: 'sprite', nrItems: 10, price: 20, }],
         [{ name: 'milka', nrItems: 10, price: 30, },
-            { name: 'mars', nrItems: 10, price: 10, },
-            {name: 'snikers', nrItems: 10, price: 15, }, 
+            { name: 'mars', nrItems: 10, price: 5, },
+            {name: 'snikers', nrItems: 8, price: 5, }, 
             { name: 'twix', nrItems: 10, price: 25, }],
         [ { name: 'lays', nrItems: 10, price: 50, },
             { name: 'chio', nrItems: 10, price: 30, },
