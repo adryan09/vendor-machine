@@ -1,9 +1,9 @@
 ###
-1. git clone
+git clone
 ###
-2. cd project folder
+cd project folder
 ###
-3.npm install 
+npm install 
 ### 
 npm start 
 ###
